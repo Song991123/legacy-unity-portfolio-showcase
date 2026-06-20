@@ -6,12 +6,6 @@
 ![CSharp](https://img.shields.io/badge/C%23-Unity%20prototype-512BD4?logo=csharp)
 ![Portfolio](https://img.shields.io/badge/type-public%20portfolio-2E7D32)
 
-## 🖼️ 화면 미리보기
-
-| MYO Archery | I-AI | Recall |
-| --- | --- | --- |
-| ![MYO Archery screen](docs/assets/myo-archery-screen-1.jpg) | ![I-AI screen](docs/assets/i-ai-screen-2.jpg) | ![Recall screen](docs/assets/recall-screen-1.jpg) |
-
 ## 🧭 프로젝트 한눈에 보기
 
 | 프로젝트 | 시기 | 핵심 경험 | 포트폴리오 포인트 |
