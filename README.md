@@ -1,100 +1,85 @@
-# Unity 인터랙션 게임/데모 아카이브
+# Unity 센서 인터랙션 포트폴리오
 
-> 2018-2020년에 Unity로 제작했던 센서 연동 게임, AI 데모, VR 인터랙션 프로젝트를 공개 가능한 화면과 설명 중심으로 정리한 포트폴리오입니다.
+> 스마트폰, MYO 암밴드, VR HMD, 카메라 인식을 Unity 콘텐츠의 입력과 화면 반응으로 바꾼 2019-2020 프로젝트입니다.
 
-![Unity](https://img.shields.io/badge/Unity-2018%20%7C%202019-222222?logo=unity)
-![CSharp](https://img.shields.io/badge/C%23-Unity%20prototype-512BD4?logo=csharp)
-![Portfolio](https://img.shields.io/badge/type-public%20portfolio-2E7D32)
+![Unity](https://img.shields.io/badge/Unity-2019%20%7C%2020-222222?logo=unity)
+![CSharp](https://img.shields.io/badge/C%23-Interactive%20Content-512BD4?logo=csharp)
+![MYO](https://img.shields.io/badge/MYO-Sensor%20Input-2B8A72)
+![VR](https://img.shields.io/badge/VR-Device%20Interaction-4D6FA7)
 
 ## 🧭 프로젝트 한눈에 보기
 
-| 프로젝트 | 시기 | 핵심 경험 | 포트폴리오 포인트 |
+| 프로젝트 | 역할 | 내가 만든 핵심 | 결과 |
 | --- | --- | --- | --- |
-| MYO Archery | 2018-2019 | 3일 단독 개발, MYO 암밴드 입력, 3D 활쏘기 게임 | 원광대 디콘 동아리 부스 메인 콘텐츠로 사용된 실행형 게임 |
-| I-AI | 2020 | 음성/영상 인식, 3D 캐릭터, 서비스형 데모 | AI 인터랙션을 Unity 화면으로 연결한 대표 사례 |
-| Recall | 2019 | VR 장비, 센서 입력, 실제 착용 시연 | 물리 장비 기반 상호작용 경험 |
+| MSmote | 4인 팀장 · 프로젝트 원안 | 전체 기획, 멀티스크린 구조, Decibel Play 단독 구현 | 수상 2건 · 저작권 C-2020-002275 |
+| MYO Archery | 1인 기획·개발 | MYO 팔 방향 조준, 발사·점수·종료 흐름, Windows build | 3일 개발 · 전북 과학축전 부스 메인 콘텐츠 |
+| I-AI | 3인 팀장 | 손동작 데이터 수집·라벨링, YOLO 학습, Unity UI 연결 | K-해커톤 본선 |
+| Recall | 3인 팀장 | 학과 전용 강의실 3D 모델링, 체험 시나리오·팀 통합 | VR·MYO 방 탈출 시연 |
 
 ## 🔗 주요 링크
 
-| 자료 | 설명 |
+| 결과물 | 링크 |
 | --- | --- |
-| GitHub README | 이 저장소의 첫 화면이 공개 포트폴리오 본문입니다. |
-| MYO Archery Windows 빌드 | [builds/myo-archery-windows.zip](builds/myo-archery-windows.zip) |
-| 공개 이미지 | `docs/assets/`에 대표 프로젝트 캡처만 포함했습니다. |
+| MYO Archery 전시 영상 | [60초 현장 시연](https://song991123.github.io/portfolio-assets/videos/myo-archery-forest-arrow-exhibition.mp4) |
+| MYO Archery Windows build | [ZIP 다운로드](builds/myo-archery-windows.zip) |
+| 노션 포트폴리오 | [전체 프로젝트 갤러리](https://marenblog.notion.site/Backend-Full-stack-Developer-38ff5ac8065c81f1bffbc2bd48b0e081) |
 
-## 🎯 MYO Archery
+<a id="msmote"></a>
 
-![MYO Archery screen](docs/assets/myo-archery-screen-1.jpg)
+## 🏆 MSmote · 스마트폰 게임 컨트롤러
 
-MYO 암밴드 입력을 활용해 활을 조작하는 3D 활쏘기 게임입니다. 원광대 디지털콘텐츠 관련 동아리 활동 중 3일 동안 단독 개발했고, 이후 전시 부스에서 메인 콘텐츠로 사용했습니다. 숲 배경, 과녁, 활 오브젝트, 점수 UI를 갖춘 실행 가능한 Unity 빌드가 남아 있어 오래된 프로젝트 중에서도 가장 직접적으로 보여줄 수 있는 결과물입니다.
+![MSmote PC와 모바일 멀티스크린 시연](docs/assets/msmote-demo.png)
 
-| 항목 | 내용 |
+스마트폰의 화면, 조이스틱, 마이크, 자이로를 PC 게임 입력으로 쓰는 아이디어와 두 게임의 콘텐츠 구조를 제안했습니다. 팀장으로 4인의 입력 모듈을 통합했고, 마이크 음량으로 오브젝트를 모으는 `Decibel Play`의 자동 스테이지, 제한 시간, 점수 UI와 플레이 규칙을 단독 구현했습니다.
+
+- 2019 캡스톤디자인 경진대회 최우수상
+- 2019 기업연계 캡스톤디자인 은상
+- 플레이 컨트롤러 저작권 등록 `C-2020-002275`
+
+[노션에서 MSmote 상세 보기](https://marenblog.notion.site/3a3f5ac8065c814a9f33c815482d9efb)
+
+<a id="myo-archery"></a>
+
+## 🏹 MYO Archery · 3일 단독 개발
+
+![MYO Archery 게임 화면](docs/assets/myo-archery-screen-1.jpg)
+
+MYO 암밴드의 팔 방향을 활 조준에 연결하고 발사, 화살 충돌, 점수와 게임 종료까지 구현한 Unity 양궁 게임입니다. 기획부터 Windows build까지 3일 동안 혼자 완성했고, 원광대학교 디콘 동아리 부스로 참여한 전북 과학축전에서 관람객이 반복 체험하는 메인 콘텐츠로 운영했습니다.
+
+- MYO 팔 방향 → 활 조준
+- 별도 입력 → 화살 발사
+- 과녁·이동 표적 충돌, 점수, Game End와 재시작
+- [Windows build 다운로드](builds/myo-archery-windows.zip)
+- [전시 영상 보기](https://song991123.github.io/portfolio-assets/videos/myo-archery-forest-arrow-exhibition.mp4)
+
+[노션에서 MYO Archery 상세 보기](https://marenblog.notion.site/3a3f5ac8065c8178af11d8c7bbcc1bcc)
+
+<a id="i-ai"></a>
+
+## 🤖 I-AI · 손동작 기반 안내 프로토타입
+
+![I-AI 손동작 메뉴 시연](docs/assets/i-ai-screen-3.jpg)
+
+3인 팀장으로 매장 안내 서비스의 흐름과 Unity 통합을 이끌었습니다. 손동작 이미지 1,068장을 수집하고 색상 기반 이미지 146장을 직접 라벨링한 뒤, YOLO 계열 모델의 인식 결과를 메뉴 UI와 상품 모델 반응으로 연결했습니다. 팀의 음성·애니메이션 모듈을 유사 홀로그램 시연에 합쳐 K-해커톤 본선에 진출했습니다.
+
+[노션에서 I-AI 상세 보기](https://marenblog.notion.site/3a3f5ac8065c818aabf3d43520ea0e40)
+
+<a id="recall"></a>
+
+## 🥽 Recall · 실제 강의실을 옮긴 VR 방 탈출
+
+![Recall VR과 MYO 시연](docs/assets/recall-screen-1.jpg)
+
+학과 전용 강의실의 구조와 배치를 직접 3D 모델링해 VR 방 탈출 맵으로 만들었습니다. 3인 팀장으로 HMD 시점, MYO·마이크 입력, 퍼즐과 비주얼 노벨 흐름을 한 체험 시나리오로 통합해 실제 장비 시연까지 완성했습니다.
+
+[노션에서 Recall 상세 보기](https://marenblog.notion.site/3a3f5ac8065c81e0b741dc1baba4385)
+
+## 🛠️ 기술과 역량
+
+| 영역 | 적용 경험 |
 | --- | --- |
-| 개발 기간 | 3일 |
-| 제작 방식 | 단독 개발 |
-| 사용 장치 | MYO 암밴드 |
-| 공개 빌드 | [Windows build zip](builds/myo-archery-windows.zip) |
-
-- 3일 동안 단독 제작한 Unity 게임 프로젝트
-- 원광대 디콘 동아리 활동 전시 부스의 메인 콘텐츠로 활용
-- MYO 센서 입력을 게임 조작 흐름에 연결
-- 과녁, 활, 숲 배경을 이용한 3D 플레이 장면 구성
-- 현재 PC에서 빌드를 실행해 공개용 캡처 확보
-
-## 🤖 I-AI
-
-![I-AI screen](docs/assets/i-ai-screen-2.jpg)
-
-매장 안내형 홀로그램 AI를 목표로 만든 Unity 프로토타입입니다. 음성, 영상, 객체 인식, 3D 캐릭터 표현을 한 흐름 안에서 연결해 보며 서비스형 인터랙션을 실험했습니다.
-
-| 항목 | 내용 |
-| --- | --- |
-| 작업 시기 | 2020 |
-| 성격 | 캡스톤/해커톤형 Unity AI 데모 |
-| 공개 범위 | 화면 캡처와 구현 설명만 공개 |
-
-- Unity 씬과 캐릭터를 중심으로 안내 흐름 구성
-- OpenCV, YOLO, STT 관련 자료를 결합한 멀티모달 실험
-- 캡스톤/해커톤 성격의 프로젝트라 문제 정의와 시연 맥락을 설명하기 좋음
-
-## 🥽 Recall
-
-![Recall screen](docs/assets/recall-screen-1.jpg)
-
-VR 장비와 손/센서 입력을 활용한 체험형 Unity 데모입니다. 실제 착용하고 조작하는 시연 자료가 남아 있어 물리 장비 기반 상호작용 경험을 보여주는 보조 사례로 정리했습니다.
-
-| 항목 | 내용 |
-| --- | --- |
-| 작업 시기 | 2019 |
-| 성격 | VR/센서 기반 상호작용 데모 |
-| 공개 범위 | 화면 캡처와 구현 설명만 공개 |
-
-- 실제 착용/조작 장면이 포함된 시연 자료 보존
-- VR/센서 입력을 Unity 씬과 연결한 실험
-- 구형 장비 의존 프로젝트의 복원 조건을 별도 private archive에 보관
-
-## 🧩 구현 경험
-
-| 경험 | 설명 |
-| --- | --- |
-| 센서 연동 게임 제작 | MYO 암밴드 입력을 Unity 게임 조작에 연결 |
-| Unity 3D 씬 구성 | 캐릭터, 공간, 카메라, 조명, 프리팹을 조합해 시연 가능한 장면 구성 |
-| 입력/인식 연동 | 음성, 영상, 포즈, 센서 입력을 Unity 상호작용 흐름에 연결하는 실험 |
-| 데모 제작 | 발표와 시연을 위한 빌드, 영상, 화면 자료 구성 |
-| 구형 프로젝트 복원 | Unity 2018/2019 프로젝트를 분리 백업하고 공개 가능한 자료만 정리 |
-
-## 🛠️ 기술 스택
-
-| 기술 | 사용 맥락 |
-| --- | --- |
-| Unity 2018/2019 | 3D 씬, 인터랙션, 빌드 산출물 제작 |
-| C# | Unity 게임 로직과 입력 처리 흐름 구현 |
-| MYO SDK | 암밴드 센서 입력을 게임 조작에 연결 |
-| OpenCV/YOLO/STT | 영상/객체/음성 인식 실험 자료 연동 |
-| VR 장비 | 물리 조작 기반 상호작용 실험 |
-
-## 🔒 공개 범위
-
-이 저장소에는 포트폴리오 검토에 필요한 설명, 공개 가능한 캡처 이미지, 그리고 MYO Archery 실행 빌드만 포함했습니다. 원본 Unity 프로젝트 소스는 외부 에셋, SDK, 모델 파일이 섞여 있어 별도 private archive로 보관합니다.
-
-I-AI와 Recall은 실행 빌드보다 프로젝트 화면과 구현 맥락을 보여주는 용도로만 공개했습니다.
+| Unity / C# | 3D 장면, 게임 상태, 충돌·점수, UI, Windows build |
+| 센서 입력 | MYO 팔 방향과 마이크 음량을 게임 규칙으로 변환 |
+| 모바일 연동 | PC 전체 화면과 Android 1인칭 화면, 조이스틱·자이로·마이크 입력 통합 |
+| AI 인터랙션 | 데이터 수집·라벨링, YOLO/OpenCV 추론, 인식 결과와 Unity UI 연결 |
+| VR / 3D | 실제 강의실 모델링, HMD 시점과 센서 기반 퍼즐 체험 구성 |
