@@ -72,7 +72,7 @@ MYO 암밴드의 팔 방향을 활 조준에 연결하고 발사, 화살 충돌,
 
 학과 전용 강의실의 구조와 배치를 직접 3D 모델링해 VR 방 탈출 맵으로 만들었습니다. 3인 팀장으로 HMD 시점, MYO·마이크 입력, 퍼즐과 비주얼 노벨 흐름을 한 체험 시나리오로 통합해 실제 장비 시연까지 완성했습니다.
 
-[노션에서 Recall 상세 보기](https://marenblog.notion.site/3a3f5ac8065c81e0b741dc1baba4385)
+[노션에서 Recall 상세 보기](https://marenblog.notion.site/3a3f5ac8065c81e0b741dc1baba4385e)
 
 ## 🛠️ 기술과 역량
 
